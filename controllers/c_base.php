@@ -25,10 +25,6 @@ class base_controller {
 		# So we can use $user in views			
 			$this->template->set_global('user', $this->user);
 			
-		echo '<pre>';
-		print_r($this->user);
-		echo'</pre>';	
-			
 	}
 	
 } # eoc
